@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Item" representedClassName="Item" syncable="YES">
+        <attribute name="item_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="item_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="item_price" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="shoppingList" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ShoppingList" inverseName="shoppingList_items" inverseEntity="ShoppingList" syncable="YES"/>
+    </entity>
+    <entity name="ItemData" representedClassName="ItemData" syncable="YES">
+        <attribute name="item_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="item_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="item_price" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="ShoppingList" representedClassName="ShoppingList" syncable="YES">
+        <relationship name="shoppingList_items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Item" inverseName="shoppingList" inverseEntity="Item" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Item" positionX="-432" positionY="45" width="128" height="103"/>
+        <element name="ItemData" positionX="-279" positionY="-135" width="128" height="88"/>
+        <element name="ShoppingList" positionX="-54" positionY="18" width="128" height="58"/>
+    </elements>
+</model>

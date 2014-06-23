@@ -1,0 +1,10 @@
+//////////////////////////////////////////////////////////////////////////
+//  FILE.NAME                                                          //
+//  PROJECT_NAME                                                      //
+//                                                                   //
+//  PROJECT DESCRIPTION AREA OF EACH TASK ACHIEVED BY THIS FILE     //
+//                                                                 //
+//  Created by Eddie Power on DATE OF CREATION.                   //
+//  Copyright (c) 2014 Eddie Power.                              //
+//  All rights reserved.                                        //
+/////////////////////////////////////////////////////////////////

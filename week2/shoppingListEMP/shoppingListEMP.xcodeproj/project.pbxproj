@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89073A9218D04A62000B1593 /* shoppingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 89073A9118D04A62000B1593 /* shoppingList.m */; };
+		894018E518D7EB920021ABB1 /* menuDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 894018E418D7EB920021ABB1 /* menuDriver.m */; };
+		89CF0C4B18CF29D90031D187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CF0C4A18CF29D90031D187 /* Foundation.framework */; };
+		89CF0C4E18CF29D90031D187 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CF0C4D18CF29D90031D187 /* main.m */; };
+		89CF0C5218CF29D90031D187 /* shoppingListEMP.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 89CF0C5118CF29D90031D187 /* shoppingListEMP.1 */; };
+		89CF0C5A18CF2BF30031D187 /* item.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CF0C5918CF2BF30031D187 /* item.m */; };
+		89CF0C6018CF41440031D187 /* KeyboardScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CF0C5F18CF41440031D187 /* KeyboardScanner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89CF0C4518CF29D90031D187 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				89CF0C5218CF29D90031D187 /* shoppingListEMP.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		89073A9018D04A62000B1593 /* shoppingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shoppingList.h; sourceTree = "<group>"; };
+		89073A9118D04A62000B1593 /* shoppingList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shoppingList.m; sourceTree = "<group>"; };
+		894018E318D7EB920021ABB1 /* menuDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuDriver.h; sourceTree = "<group>"; };
+		894018E418D7EB920021ABB1 /* menuDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuDriver.m; sourceTree = "<group>"; };
+		89CF0C4718CF29D90031D187 /* shoppingListEMP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = shoppingListEMP; sourceTree = BUILT_PRODUCTS_DIR; };
+		89CF0C4A18CF29D90031D187 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89CF0C4D18CF29D90031D187 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89CF0C5018CF29D90031D187 /* shoppingListEMP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shoppingListEMP-Prefix.pch"; sourceTree = "<group>"; };
+		89CF0C5118CF29D90031D187 /* shoppingListEMP.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = shoppingListEMP.1; sourceTree = "<group>"; };
+		89CF0C5818CF2BF30031D187 /* item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = item.h; sourceTree = "<group>"; };
+		89CF0C5918CF2BF30031D187 /* item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = item.m; sourceTree = "<group>"; };
+		89CF0C5E18CF41440031D187 /* KeyboardScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardScanner.h; sourceTree = "<group>"; };
+		89CF0C5F18CF41440031D187 /* KeyboardScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardScanner.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89CF0C4418CF29D90031D187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CF0C4B18CF29D90031D187 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89CF0C3E18CF29D90031D187 = {
+			isa = PBXGroup;
+			children = (
+				89CF0C4C18CF29D90031D187 /* shoppingListEMP */,
+				89CF0C4918CF29D90031D187 /* Frameworks */,
+				89CF0C4818CF29D90031D187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89CF0C4818CF29D90031D187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89CF0C4718CF29D90031D187 /* shoppingListEMP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89CF0C4918CF29D90031D187 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89CF0C4A18CF29D90031D187 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89CF0C4C18CF29D90031D187 /* shoppingListEMP */ = {
+			isa = PBXGroup;
+			children = (
+				89CF0C4D18CF29D90031D187 /* main.m */,
+				89CF0C5E18CF41440031D187 /* KeyboardScanner.h */,
+				89CF0C5F18CF41440031D187 /* KeyboardScanner.m */,
+				89CF0C5818CF2BF30031D187 /* item.h */,
+				89CF0C5918CF2BF30031D187 /* item.m */,
+				89CF0C5118CF29D90031D187 /* shoppingListEMP.1 */,
+				89CF0C4F18CF29D90031D187 /* Supporting Files */,
+				89073A9018D04A62000B1593 /* shoppingList.h */,
+				89073A9118D04A62000B1593 /* shoppingList.m */,
+				894018E318D7EB920021ABB1 /* menuDriver.h */,
+				894018E418D7EB920021ABB1 /* menuDriver.m */,
+			);
+			path = shoppingListEMP;
+			sourceTree = "<group>";
+		};
+		89CF0C4F18CF29D90031D187 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89CF0C5018CF29D90031D187 /* shoppingListEMP-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89CF0C4618CF29D90031D187 /* shoppingListEMP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89CF0C5518CF29D90031D187 /* Build configuration list for PBXNativeTarget "shoppingListEMP" */;
+			buildPhases = (
+				89CF0C4318CF29D90031D187 /* Sources */,
+				89CF0C4418CF29D90031D187 /* Frameworks */,
+				89CF0C4518CF29D90031D187 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shoppingListEMP;
+			productName = shoppingListEMP;
+			productReference = 89CF0C4718CF29D90031D187 /* shoppingListEMP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89CF0C3F18CF29D90031D187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Eddie Power";
+			};
+			buildConfigurationList = 89CF0C4218CF29D90031D187 /* Build configuration list for PBXProject "shoppingListEMP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89CF0C3E18CF29D90031D187;
+			productRefGroup = 89CF0C4818CF29D90031D187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89CF0C4618CF29D90031D187 /* shoppingListEMP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89CF0C4318CF29D90031D187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894018E518D7EB920021ABB1 /* menuDriver.m in Sources */,
+				89CF0C5A18CF2BF30031D187 /* item.m in Sources */,
+				89073A9218D04A62000B1593 /* shoppingList.m in Sources */,
+				89CF0C6018CF41440031D187 /* KeyboardScanner.m in Sources */,
+				89CF0C4E18CF29D90031D187 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89CF0C5318CF29D90031D187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89CF0C5418CF29D90031D187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89CF0C5618CF29D90031D187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shoppingListEMP/shoppingListEMP-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89CF0C5718CF29D90031D187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shoppingListEMP/shoppingListEMP-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89CF0C4218CF29D90031D187 /* Build configuration list for PBXProject "shoppingListEMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CF0C5318CF29D90031D187 /* Debug */,
+				89CF0C5418CF29D90031D187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89CF0C5518CF29D90031D187 /* Build configuration list for PBXNativeTarget "shoppingListEMP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CF0C5618CF29D90031D187 /* Debug */,
+				89CF0C5718CF29D90031D187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89CF0C3F18CF29D90031D187 /* Project object */;
+}

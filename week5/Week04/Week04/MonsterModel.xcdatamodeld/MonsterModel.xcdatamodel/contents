@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Monster" representedClassName="Monster" syncable="YES">
+        <attribute name="attackPower" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="party" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Party" inverseName="members" inverseEntity="Party" syncable="YES"/>
+    </entity>
+    <entity name="MonsterData" representedClassName="MonsterData" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Party" representedClassName="Party" syncable="YES">
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Monster" inverseName="party" inverseEntity="Monster" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Monster" positionX="457" positionY="1962" width="128" height="88"/>
+        <element name="Party" positionX="772" positionY="2052" width="128" height="58"/>
+        <element name="MonsterData" positionX="630" positionY="1872" width="128" height="73"/>
+    </elements>
+</model>
